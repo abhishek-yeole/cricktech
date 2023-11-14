@@ -1,0 +1,196 @@
+body {
+    box-sizing: border-box;
+}
+
+.live-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    overflow: scroll;
+    height: 98%;
+}
+
+.live-controls {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.groupchat {
+    width: 100%;
+    height: 40%;
+}
+
+.live-video {
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.popover {
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.room-main {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px auto;
+    width: 30%;
+    padding: 10px;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    border-radius: 12px;
+    height: 90vh;
+    margin: 10px auto;
+    background: linear-gradient(
+    135deg,
+    rgba(176, 90, 241, 0.8) 0,
+    rgb(56, 234, 255, 0.8) 100%
+  );
+  backdrop-filter: blur(5px);
+}
+
+.story-reactions {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.story-text {
+    height: 88%;
+}
+
+.group-chat {
+    width: 100%;
+    padding: 5px;
+    border-radius: 12px;
+    height: 100%;
+    margin: 10px auto;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: scroll;
+}
+
+.view-persons {
+    background-color: aquamarine;
+    border-radius: 6px;
+    width: 75px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.chat-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.chating {
+    height: 80%;
+    margin: 3px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+.polling {
+    height: 20%;
+    margin: 3px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: azure;
+}
+
+.chat-view {
+    height: 90%;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: white;
+    overflow: scroll;
+}
+
+.chat-input {
+    height: auto;
+    margin: 2px;
+    border-radius: 8px;
+}
+
+.single-chat {
+    background-color: aliceblue;
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 5px;
+    overflow: scroll;
+    font-size: small;
+    text-wrap: wrap;
+}
+
+.story-text {
+    overflow: scroll;
+}
+
+@media screen and (max-width: 900px){
+    .room-main {
+        flex-direction: column;
+        width: 100%;
+        padding: 3px;
+    }
+
+    .group-chat {
+        width: 95%;
+        padding: 5px;
+    }
+
+    .chat-view {
+        max-height: 500px;
+    }
+    
+    .live-body {
+        flex-direction: column;
+        padding: 5px;
+        overflow: scroll;
+    }
+
+    .live-controls {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .groupchat {
+        width: 100%;
+        height: 40%;
+    }
+
+    .live-video {
+        width: 100%;
+        height: 250px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .popover {
+        background-color: aqua;
+        border-radius: 10px;
+    }
+}

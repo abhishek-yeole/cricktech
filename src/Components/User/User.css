@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(230, 230, 230) !important;
+}
+
+.navigator-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    text-wrap: wrap;
+    position: fixed;
+    z-index: 99;
+    top: 9%;
+    left: 15px;
+    width: 100px;
+    height: 89vh;
+    border-radius: 10px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.navigator-bar {
+    width: 5%;
+    margin: 0 auto;
+    background: #FF00FF;
+    border-radius: 10px;
+}
+
+.navigator-menu {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.navigate-one,
+.navigate-two,
+.navigate-three,
+.navigate-four {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    align-items: center;
+    border-radius: 0px 24px 24px 0px;
+    background: white;
+    height: 50px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.navigate-one:hover,
+.navigate-two:hover,
+.navigate-three:hover,
+.navigate-four:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to left, rgba(18, 31, 206, 0.4) 0%, rgba(255, 0, 255, 0.4) 81%);
+}
+
+.navigate-one.clicked,
+.navigate-two.clicked,
+.navigate-three.clicked,
+.navigate-four.clicked {
+    transform: scale(1.1);
+    background: linear-gradient(to left, #121FCF 0%, #FF00FF 81%);
+}
+
+.user-main-route {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    overflow: scroll;
+}
+
+
+@media screen and (max-width: 900px){
+    .navigator-body {
+        top: auto;
+        left: auto;
+        bottom: 0px;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 8vh;
+    }
+    .navigator-bar {
+        width: 100%;
+        height: 5px;
+    }
+    .navigator-menu {
+        flex-direction: row;
+    }
+    .navigate-one,
+    .navigate-two,
+    .navigate-three,
+    .navigate-four {
+        width: 50px;
+        border-radius: 14px 14px 0px 0px;
+    }
+    .user-main-route {
+        width: 96%;
+        margin-left: 20px;
+        margin-top: 100px;
+        margin-bottom: 65px;
+        position: relative;
+    }
+}
