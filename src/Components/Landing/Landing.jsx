@@ -104,10 +104,7 @@ const Landing = () => {
             <div className='working'>
                 <div className='working-content'>
                     <div className='working-header'>How does it Works?</div>
-                    <div className='working-text'>Explore the magic behind CrickTech in three simple steps:
-Sign Up: Create your personalized account and join a vibrant community of cricket enthusiasts.
-Dive In: Immerse yourself in live streaming chatrooms, real-time match updates, and predictive analysis.
-Experience Cricket Like Never Before: Engage, predict, and celebrate the game with fellow fans.</div>
+                    <div className='working-text'>Explore the magic behind CrickTech in three simple steps: Sign Up: Create your personalized account and join a vibrant community of cricket enthusiasts. Dive In: Immerse yourself in live streaming chatrooms, real-time match updates, and predictive analysis. Experience Cricket Like Never Before: Engage, predict, and celebrate the game with fellow fans.</div>
                 </div>
                 <img style={{width: '350px'}} src={working} alt="Working" />
             </div>

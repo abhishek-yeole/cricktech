@@ -7,6 +7,7 @@ import Popover from '@mui/material/Popover';
 import Typography from '@mui/material/Typography';
 import Account from '../Landing/Account';
 import './RoomChat/lobby.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [fillScreen, setFillScreen] = useState(false);
@@ -87,12 +88,12 @@ const Header = () => {
           <div className='navBar' >
             <div className='center' >
               <div className='logo'>
-                <img className='img1' src={ logo } alt='Logo' />
+                <Link to={'/'}><img className='img1' src={ logo } alt='Logo' /></Link>
               </div>
             </div>
             <div className='account' onClick={toggleAccountDiv}>
                 <div className='menu-icon' aria-describedby={id} onClick={handleClick} style={{fontSize: 'xx-large', color: 'black'}}>
-                  <img src={avatarUrl} height="35"/>
+                  <img style={{cursor: 'pointer'}} src={avatarUrl} height="35"/>
                 </div>
                 <Popover id={id} open={open} anchorEl={anchorEl} onClose={handleClose} anchorOrigin={{ vertical: 'bottom', horizontal: 'left',}}>
                     <Typography sx={{ p: 2, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignContent: 'flex-start', alignItems: 'flex-start' }} >

@@ -30,8 +30,8 @@ body {
 }
 
 .popover {
-    background-color: aqua;
-    border-radius: 10px;
+    background-color: rgb(0, 255, 13);
+    border-radius: 8px;
 }
 
 .room-main {
@@ -125,7 +125,7 @@ body {
     margin: 2px;
     padding: 5px;
     border-radius: 8px;
-    background-color: white;
+    background-color: rgb(244, 244, 244);
     overflow: scroll;
 }
 

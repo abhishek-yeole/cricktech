@@ -257,6 +257,10 @@ const Room = () => {
     const handlePopoverClose = () => {
         setPopoverVisible(false);
     };
+
+    const copyRoomCode = (roomCode) => {
+        navigator.clipboard.writeText(roomCode);
+    };
     
     return (
         <div className='live-body'>
@@ -272,11 +276,11 @@ const Room = () => {
                     <div className='group-chat'>
                         <div className='chating'>
                             <div className='chat-header'>
-                                <div><strong>Room Code: </strong> {roomCode}</div>
+                                <div><strong>Room Code: </strong> <Button variant='outlined' onClick={() => copyRoomCode(roomCode)}>{roomCode}</Button></div>
                                 {popoverVisible ? (
-                                    <div className='view-persons' onClick={handlePopoverClose}>Close</div>
+                                    <Button variant='contained' color="error" className='view-persons' onClick={handlePopoverClose}>Close</Button>
                                 ) : (
-                                    <div className='view-persons' onClick={handleViewPersonsClick}>View</div>
+                                    <Button variant='contained' color="success" className='view-persons' onClick={handleViewPersonsClick}>Online</Button>
                                 )}
                             </div>
                             {popoverVisible && (
@@ -318,7 +322,7 @@ const Room = () => {
                                     <LinearProgress variant="determinate" value={progress} />
                                     <div className='display-votes' style={{fontSize: '12px', fontWeight: 'bold'}}>{progress / 20} Vote</div>
                                 </div>
-                                <Button variant="contained" color='secondary' startIcon={<Icon icon="ant-design:thunderbolt-filled" />} size='small' onClick={handlePollInput} >Re-Generate</Button>
+                                <Button variant="contained" color='secondary' startIcon={<Icon icon="ant-design:thunderbolt-filled" />} size='small' onClick={handlePollInput} >New Room Poll</Button>
                             </Box>
                         </div>
                     </div> 

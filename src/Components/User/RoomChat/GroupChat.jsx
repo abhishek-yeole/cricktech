@@ -85,7 +85,7 @@ const GroupChat = () => {
                     <Box sx={{ '& > :not(style)': { m: 0.5 }, display: 'flex', alignItems: 'center' }}>
                         <TextField id="filled-multiline-flexible" label="Enter text" value={groupText} onChange={(e) => setGroupText(e.target.value)} multiline maxRows={4} variant="filled" size='small' fullWidth/>
                         {sentButton ? (
-                            <Icon icon="ion:send" style={{fontSize: '28px'}} onClick={handleChatInput}/>
+                            <Icon icon="ion:send" style={{fontSize: '28px', cursor: 'pointer'}} onClick={handleChatInput}/>
                         ) : (
                             <Icon icon="ion:send" style={{fontSize: '28px'}} color='grey'/>
                         ) }

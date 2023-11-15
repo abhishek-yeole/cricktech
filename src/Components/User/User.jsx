@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Performance from "./Performance/Performance";
 import Prediction from "./Prediction/Prediction";
-// import ChatBot from "./ChatBot/ChatBot";
 import RoomChat from "./RoomChat/RoomChat";
 import Matches from "./Matches/Matches";
 import Popover from '@mui/material/Popover';
