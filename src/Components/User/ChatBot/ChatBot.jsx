@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import { Icon } from '@iconify/react';
 import './ChatBot.css';
 import config from "../../../config";
-import Markdown from 'https://esm.sh/react-markdown@9';
+import Markdown from 'react-markdown';
 
 const ChatBot = () => {
   const [conversation, setConversation] = useState([]);
