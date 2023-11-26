@@ -12,12 +12,15 @@
     bottom: 15px;
     right: 15px;
     cursor: pointer;
+    z-index: 99;
 }
 
 .chatbot-layout {
     position: fixed;
     height: 100vh;
     width: 100vw;
+    top: 0;
+    left: 0;
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 99;
 }
@@ -195,7 +198,7 @@
 
 @media screen and (max-width: 900px){
     .chatbot-closed {
-        bottom: 10px;
+        bottom: 75px;
         right: 10px;
     }   
     .chatbot-body {
