@@ -22,7 +22,8 @@ const config = {
   apiUrlHandleRoomChat: 'https://abhicodes-cricktechstreamapi.hf.space/room-chat',
   apiUrlHandleChatInput: 'https://abhicodes-cricktechstreamapi.hf.space/chat-input',
   apiUrlHandlePollData: 'https://abhicodes-cricktechstreamapi.hf.space/poll-data',
-  apiUrlHandleGroupChat: 'https://abhicodes-cricktechstreamapi.hf.space/group-chat'
+  apiUrlHandleGroupChat: 'https://abhicodes-cricktechstreamapi.hf.space/group-chat',
+  apiUrlChatBot: 'https://abhicodes-cricktechstreamapi.hf.space/chat-bot'
 };
 
 export default config;
