@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import './User.css';
 import Header from "./Header";
 import { Icon } from '@iconify/react';
+import ChatBot from "./ChatBot/ChatBot";
 
 const User = () => {
     const [clickOne, setClickOne] = useState(true);
@@ -143,6 +144,7 @@ const User = () => {
                 {display === 'Performance' ? <Performance /> : <div></div>}
                 {display === 'Match' ? <Matches /> : <div></div>}
             </div>
+            <ChatBot />
         </div>
     );
 };
