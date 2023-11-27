@@ -1,20 +1,25 @@
 [![CrickTech](https://cricktech.vercel.app/static/media/Road_Sense-removebg-preview.b109c5d8d6d88f54cabe.png)](https://cricktech.vercel.app/)
 # CrickTech
-### Welcome to ComputeBot - Revolutionizing Your Cricket Experience.
+### Welcome to CrickTech - Revolutionizing Your Cricket Experience.
 
 Welcome to CrickTech, where innovation meets cricket fandom. Immerse yourself in the thrilling world of cricket like never before.
 
 [![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaDzb3Tq0LeMeKVqTdl9k_D8be6ouRxs_ferNbs0HQpWeLXO1xY-lj4xtHrCHvR0RbWQiIXvFJazo2DTMX7iFY3oUwRrEA=w1960-h4012)](https://cricktech.vercel.app/)
 
-### Our Mission
+## Our Mission
 
-At CrickTech, our mission is to redefine the way cricket enthusiasts engage with the sport. We strive to enhance your cricket experience through state-of-the-art technology, providing a platform that caters to both casual fans and die-hard enthusiasts.
+At CrickTech, our mission is to redefine the way cricket enthusiasts engage with the sport. We strive to enhance your cricket experience through technology, providing a platform that caters to both casual fans and die-hard enthusiasts.
 
-### Working
+## Working
 Explore the magic behind CrickTech in three simple steps:
 - Sign Up: Create your personalized account and join a vibrant community of cricket enthusiasts.
 - Dive In: Immerse yourself in live streaming chatrooms, real-time match updates, and predictive analysis.
 - Experience Cricket Like Never Before: Engage, predict, and celebrate the game with fellow fans.
+
+## Youtube
+To see the Demo Video Working for the Project:
+
+[![Youtube](https://img.youtube.com/vi/gTrvaIQp_sg/0.jpg)](https://www.youtube.com/watch?v=gTrvaIQp_sg)
 
 ## Frontend
 1. Complete Frontend code is deployed on Vercel: _[https://github.com/abhishek-yeole/cricktech](https://github.com/abhishek-yeole/cricktech)_
@@ -52,6 +57,10 @@ Explore the magic behind CrickTech in three simple steps:
    - **Deployed Interface -** 🤗 Hugging Face: _[https://huggingface.co/spaces/abhicodes/Cricket-Performance-Analysis](https://huggingface.co/spaces/abhicodes/Cricket-Performance-Analysis)_
    - Developed and Interface using **Gradio**
 
+## ChatBot LLM
+The ChatBot - CrickBot was built using a free GPT provider - _[gpt4free](https://pypi.org/project/gpt4free/0.0.2.6/)_
+   - The API endpoint for prompt engineering and user query was built using Flask.
+   - Then it is connected to the frontend ChatUI.
 
 ## **System Architecture:**
 1. **Routes Architecture:**
@@ -82,7 +91,7 @@ Explore the magic behind CrickTech in three simple steps:
 
 ## Visit Live Site
 
-🚀 CrickTech is hosted using Vercel.
+CrickTech is hosted using Vercel.
 
 _[CrickTech](https://cricktech.vercel.app/)_
 
@@ -102,7 +111,8 @@ Installs the required the libraries on the local machine. Also install required 
 
 ### `npm start`
 
-🚀 Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
 The page will reload when you make changes. You may also see any lint errors in the console.
 
-Thank You 😊. Do 🌟 the repo.
+Do 🌟 the repo ❤️.
