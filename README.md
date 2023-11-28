@@ -21,6 +21,11 @@ To see the Demo Video Working for the Project:
 
 [![Youtube](https://img.youtube.com/vi/gTrvaIQp_sg/0.jpg)](https://www.youtube.com/watch?v=gTrvaIQp_sg)
 
+
+## GeekforGeeks Article
+To know more refer to this GFG article - _[https://write.geeksforgeeks.org/post/5476378](https://write.geeksforgeeks.org/post/5476378)_
+
+
 ## Frontend
 1. Complete Frontend code is deployed on Vercel: _[https://github.com/abhishek-yeole/cricktech](https://github.com/abhishek-yeole/cricktech)_
 2. **Developement Tech Stack:**
@@ -44,6 +49,8 @@ To see the Demo Video Working for the Project:
    - **Developed using Jupyter lab -**
      - **Kaggle Notebook:** _[https://www.kaggle.com/code/abhisheky27/t20i-cricket-score-predictor](https://www.kaggle.com/code/abhisheky27/t20i-cricket-score-predictor)_
      - **Google Collab .ipynb file:** _[https://colab.research.google.com/drive/1mqtLjarfVQTXwiMyerHH0fLWp6K2eta9?usp=sharing](https://colab.research.google.com/drive/1mqtLjarfVQTXwiMyerHH0fLWp6K2eta9?usp=sharing)_
+   - **Dataset:** _[https://www.kaggle.com/datasets/jamiewelsh2/ball-by-ball-it20](https://www.kaggle.com/datasets/jamiewelsh2/ball-by-ball-it20)_
+   - **Size of Model ~ 514.39MB (Hashed)**
    - Interface using **Gradio**
 
 2. **ICC World Cup Score Predictor:**
@@ -51,10 +58,13 @@ To see the Demo Video Working for the Project:
    - **Developed using Jupyter lab -**
      - **Kaggle Notebook:** _[https://www.kaggle.com/code/abhisheky27/icc-world-cup-score-predictor/](https://www.kaggle.com/code/abhisheky27/icc-world-cup-score-predictor/)_
      - **Google Collab .ipynb file:** _[https://colab.research.google.com/drive/13fBNphICHe4_ojK1DRiILgDOeyOcu8od?usp=sharing](https://colab.research.google.com/drive/13fBNphICHe4_ojK1DRiILgDOeyOcu8od?usp=sharing)_
+   - **Dataset:** _[https://www.kaggle.com/datasets/utkarshtomar736/odi-mens-cricket-match-data-2002-2023](https://www.kaggle.com/datasets/utkarshtomar736/odi-mens-cricket-match-data-2002-2023)_
+   - **Size of Model ~ 2.95 GB (Hashed)**
    - Interface using **Gradio**
 
 3. **Cricket Players Performance Analysis:**
    - **Deployed Interface -** 🤗 Hugging Face: _[https://huggingface.co/spaces/abhicodes/Cricket-Performance-Analysis](https://huggingface.co/spaces/abhicodes/Cricket-Performance-Analysis)_
+   - **Dataset:** _[https://www.kaggle.com/datasets/akarshsinghh/cricket-player-performance-prediction](https://www.kaggle.com/datasets/akarshsinghh/cricket-player-performance-prediction)_
    - Developed and Interface using **Gradio**
 
 ## ChatBot LLM
@@ -114,5 +124,3 @@ Installs the required the libraries on the local machine. Also install required 
 Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes. You may also see any lint errors in the console.
-
-Do 🌟 the repo ❤️.
