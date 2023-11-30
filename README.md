@@ -41,6 +41,12 @@ To know more refer to this GFG article - _[https://write.geeksforgeeks.org/post/
    - Python Flask
    - 🤗 Hugging Face Spaces
    - Docker
+  
+## Databases
+1. **MySQL:** For Simple API's MySQL database is used. Database is hosted on _[Freemysqlhosting](https://www.freemysqlhosting.net/)_ site which provides 5MB database.
+   
+   ![Database](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaBeBrg-Frgvg6BnuDwNfgsBhtL3u56ilsESkUp8r7fto7aLwSaC8jQY8ox50gDHRyhvojORhGpo8cFbgI39shHuZ761pw=w1920-h923)
+3. **Hugging Space Non-Persistent Database Storage:** For Streaming API's hugging face non persistent storage is used. It is integrated feature of Hugging Face Spaces.
 
 
 ## Machin Learning Models
@@ -124,3 +130,5 @@ Installs the required the libraries on the local machine. Also install required 
 Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes. You may also see any lint errors in the console.
+
+# Do 🌟 the repo ❤️.
