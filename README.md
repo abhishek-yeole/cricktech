@@ -4,7 +4,7 @@
 
 Welcome to CrickTech, where innovation meets cricket fandom. Immerse yourself in the thrilling world of cricket like never before.
 
-[![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaDzb3Tq0LeMeKVqTdl9k_D8be6ouRxs_ferNbs0HQpWeLXO1xY-lj4xtHrCHvR0RbWQiIXvFJazo2DTMX7iFY3oUwRrEA=w1960-h4012)](https://cricktech.vercel.app/)
+[![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYRHnvunvsqqUrRuhesPB85lmVnAm91jMnvvnduAwLZyekpnXhESCDlcVOVqBGd9W0BVvSc6sWH1n_-uWUdfazb0edWY1Q=w1960-h4012)](https://cricktech.vercel.app/)
 
 ## Our Mission
 
@@ -45,7 +45,7 @@ To know more refer to this GFG article - _[https://write.geeksforgeeks.org/post/
 ## Databases
 1. **MySQL:** For Simple API's MySQL database is used. Database is hosted on _[Freemysqlhosting](https://www.freemysqlhosting.net/)_ site which provides 5MB database.
    
-   ![Database](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaBeBrg-Frgvg6BnuDwNfgsBhtL3u56ilsESkUp8r7fto7aLwSaC8jQY8ox50gDHRyhvojORhGpo8cFbgI39shHuZ761pw=w1920-h923)
+   ![Database](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYTeB45eSF9UdVrDaI1wZXtS7T9DCiUtGjE5TuevXkmPBdPTfzyTg9vTBpdRVj7cCfPwvKWed8c2Em1Mywn9tVS-GYrpeQ=w1920-h912)
 3. **Hugging Space Non-Persistent Database Storage:** For Streaming API's hugging face non persistent storage is used. It is integrated feature of Hugging Face Spaces.
 
 
@@ -80,30 +80,30 @@ The ChatBot - CrickBot was built using a free GPT provider - _[gpt4free](https:/
 
 ## **System Architecture:**
 1. **Routes Architecture:**
-   ![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaBhTOKQ2G7VzGU8tCPKPGFUQmc_Tez9oRbjDZfxHfFhm2m8WGfAhjd-5faqsjbPGcnuRs4XsAdEn0yoJkpylK6VXaFfkw=w8462-h10071)
+   ![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYTVpheRfNgHXqFudizceIokdg2OPyUihUgPMigVtuWzKLo1sYkBL8KeRzwgxMycdLHXXIWpUhOKYU9ZJ69Vm1dhn2d4vQ=w8462-h10071)
 2. **API Architecture:**
-   ![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaCcNq1exlmWGU229fiu68DIENmadIcx1mTa85WWbMfWjM8LO2-zaCxqSSHiBXnj9jMMCacB9X7-UE9P3pE0TWfzCxZljg=w1607-h4012)
+   ![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYT1lAzfQv_1iKjB_T9HF-_zlzoACRuCNe61gxFvPtmuyDzTsPDmMHXkTdBTZOu1e3Xu25_e9pBnNPaV3ZXXyAgRNifjjA=w1607-h4012)
 
 
 ## Features
 
 - Chatrooms (Public and Private) with Live Streaming:
   > Join the conversation in our dynamic chatrooms, where cricket fans unite. Discuss live matches, share insights, and enjoy the thrill together. With live streaming integrated, the action is just a click away.
-[![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaBkdZJ7oxGciB_-AOHrdvSuSofCADbPTwZV91oNJlZOoR4vwDK0GuAjYs3pK8vKJET4f7-Nm31JABWFFxJ0rfsHT_PX1g=w1960-h4012)](https://cricktech.vercel.app/)
-[![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaCl5i_ggTc3xLMdwOvVd9c74v4hmTPxCXhPEZN_pKA4TsqsVcqeqRKwLjwluhdU1FKBOeHAZdE5Gy8UklRPEvdrjeasng=w1960-h4012)](https://cricktech.vercel.app/)
+[![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSCIcgWM16dyn1ZXbZER_GJXS5AmQAjzTmdnEA8ihciw2wAbLO0hQLj2d-i4hNzEn9l6Csx0FvPAjXMUKqkUqPvS4F6tQ=w1960-h4012)](https://cricktech.vercel.app/)
+[![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYRH2pYvoID_PDP-b1NwH48VpC_6ZvJidUb_BJw9vaRgloBDgk8Bx7qovSvBBMI5Oav4lxonGvYdjqrElTc5pNHz9GEvPg=w1960-h4012)](https://cricktech.vercel.app/)
 
 -  Score Predictor for T20 and ICC Matches:
    > Test your cricket instincts with our Score Predictor feature. Predict the outcomes of T20 and ICC matches, challenge your friends, and climb the leaderboard. The excitement of the game is now in your hands.
-[![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaDrE7jLM1XTZfrMSDU_vtCusxnxBSJ7evOg7cbb1I8_3fFSUJ26e83d9FiCvgz3zF7OGoEZLejDyvIcu6kkqjQXeV868Q=w1960-h4012)](https://cricktech.vercel.app/)
-[![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaCDMSBSf2vju8R4_vSdY_ulQohnHB_biqjPEFeqY8rjK6W1F7rPnfNUdu7uxYRWAxgVD4daI0fISVBvig6JoaURARxaag=w1960-h4012)](https://cricktech.vercel.app/)
+[![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYTMmdKZiaCpSLIw3sHFCsS8YU2eglZ5qpIcrS6LQZg2UJ88rAVmYnrApWIoY3qn6RbBNpuzEVfpO8OVoYQb-M1ysdmySw=w1960-h4012)](https://cricktech.vercel.app/)
+[![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYR7lPCHoFwSqKTdvZnHUVGB70xSZle682zRDKZZeu_k7nVR6Y7XK5bmjUFfkCjvR-zjfeXDVdA0i3acEK-9LK6SRe3gPQ=w1960-h4012)](https://cricktech.vercel.app/)
 
 - Player Performance Analysis:
   > Go beyond the scoreboard. Dive into in-depth player performance analysis, stats, and insights. CrickTech provides a comprehensive view of player achievements, allowing you to appreciate the skills that shape the game.
-[![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaCSsQaaPFu_adLpI8TMsyFO4n47IF9NbWULfiqsjsvRCW-laacCa7pr8jJ9m_ifJ1DpIebQOc49lRlzK0AIMeHvkE-UEQ=w1960-h4012)](https://cricktech.vercel.app/)
+[![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSiNCJqdGO40xKnKMMlod24OGcyIxgwAy_rHduboo7XmTZoSiNqGvi9hl_lSV5ibFeedXkmw2jkb2uD_jf5fOS2JTiVzQ=w1960-h4012)](https://cricktech.vercel.app/)
 
 - Matches Info:
   > Stay informed with up-to-the-minute match information. From schedules to results, CrickTech keeps you in the loop, ensuring you never miss a crucial moment. Explore fixtures, track scores, and relish the magic of cricket unfolding in real-time.
-[![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaAw346C8SHAfyJsKViiTj-3Ny-qJ8dfuPUnUKY_fUF7Gp7-RY4kqFYTetP1fny_WguhBKay8wfPv36jf_F1g9BRfI4XSQ=w1960-h4012)](https://cricktech.vercel.app/)
+[![CrickTech](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYTSW2sjGnVFXhmT6eVE4DXdSeP8l_OkXGSJg1ZG_Ml1cYfsGgUol5rySHwwhrNmi5lXhSeV79JxqIfLvqRYaBIQ0EDWWg=w1960-h4012)](https://cricktech.vercel.app/)
 
 ## Visit Live Site
 
